@@ -1,13 +1,16 @@
-{% extends "learning_logs/base.html" %}
+{% extends "learning_logs/base.html" %} 
 
-{% block content %}
+{% block page_header %}
+<div class="jumbotron">
+  <h1 class="display-3">Track Yout Learning.</h1>
 
-<p>Learning Log</p>
+  <p class="lead">
+    Learning log helps you keep track of your learning, for any topic you are
+    learning about.
+  </p>
 
-<p>
-  Learning log helps you keep track of your learning, for any topic you are
-  learning about.
-</p>
-
-{% endblock content %}
-
+  <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}"
+    >Register &raquo;</a
+  >
+</div>
+{% endblock page_header %}
