@@ -1,0 +1,11 @@
+Name,Urls
+Text-To-Speech CHI,https://raw.githubusercontent.com/sentient-io/microservice-docs/dev/voice/text_to_speech_chi.yaml
+Few Shots Object Detection (Dev),https://raw.githubusercontent.com/sentient-io/microservice-docs/dev/computer_vision/few_shots_object_detection.yaml
+Fleet Routing Engine (Dev),https://raw.githubusercontent.com/sentient-io/microservice-docs/dev/analytics/fleet_routing_engine.yaml
+Load Planning Engine (Dev),https://raw.githubusercontent.com/sentient-io/microservice-docs/dev/analytics/load_planning_engine.yaml
+Wikipedia Retrieval,https://raw.githubusercontent.com/sentient-io/microservice-docs/master/utility/wikipedia.yaml
+TTS ENG (wrapper),https://raw.githubusercontent.com/sentient-io/microservice-docs/dev/voice/text-to-speech_eng.yaml
+HDB Flat Ownership Duration (SG),https://raw.githubusercontent.com/sentient-io/microservice-docs/master/data/flat_ownership_hdb_sg.yaml
+Text Summarization (Large File),https://raw.githubusercontent.com/sentient-io/microservice-docs/master/nlp/text_summarization_large_file.yaml
+People Counting (Large File),https://raw.githubusercontent.com/sentient-io/microservice-docs/master/computer_vision/people_counting_large_file.yaml
+Automatic Speech Recognition ENG (Large File),https://raw.githubusercontent.com/sentient-io/microservice-docs/master/voice/automatic_speech_recognition_eng_large_file.yaml
