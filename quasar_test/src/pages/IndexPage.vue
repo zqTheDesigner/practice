@@ -21,7 +21,7 @@
         align-items: center;
       "
     >
-    <!-- MenuButton -->
+      <!-- MenuButton -->
       <div style="display: flex; flex-direction: row; align-items: center">
         <!-- <q-icon name="menu" /> -->
         <img
@@ -36,7 +36,7 @@
       </div>
 
       <!-- UerProfileBtn -->
-      <div><q-icon color="red" name="account_circle" size="32px" /></div>
+      <div><q-icon name="account_circle" size="32px" /></div>
     </div>
     <!-- End of header -->
 
