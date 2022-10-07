@@ -2,76 +2,35 @@
   <div style="max-width: 600px; padding: 2rem; margin: auto; border: 1px solid">
     <!-- Article -->
     <div style="display: flex; flex-direction: column; align-items: center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at
-        odio sagittis, bibendum dui sagittis, aliquam magna. Aliquam id lacinia
-        ante.
-      </p>
-
       <!-- Button -->
-      <div>
-        <ReadMoreButton />
+      <div class="flex row">
+
+        <s-btn outline="true" label="Read Less" color="green" />
+
+        <s-btn label="Read More More" color="green" />
+        
+        <q-btn
+          outline
+          label="Read More"
+          color="green-10"
+          icon="visibility"
+          size="0.75rem"
+        />
+
+        <q-btn
+          label="Read Less"
+          color="green-10"
+          icon="visibility"
+          size="0.75rem"
+        />
       </div>
     </div>
-    <!-- End of Article -->
-
-    <!-- Article -->
-    <div style="display: flex; flex-direction: column; align-items: center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at
-        odio sagittis, bibendum dui sagittis, aliquam magna. Aliquam id lacinia
-        ante.
-      </p>
-
-      <!-- Button -->
-      <div>
-        <ReadMoreButton />
-      </div>
-    </div>
-    <!-- End of Article -->
-
-    <!-- Article -->
-    <div style="display: flex; flex-direction: column; align-items: center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at
-        odio sagittis, bibendum dui sagittis, aliquam magna. Aliquam id lacinia
-        ante.
-      </p>
-
-      <!-- Button -->
-      <div>
-        <ReadMoreButton />
-      </div>
-    </div>
-    <!-- End of Article -->
-
-    <!-- Article -->
-    <!-- <div style="display: flex; flex-direction: column; align-items: center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at
-        odio sagittis, bibendum dui sagittis, aliquam magna. Aliquam id lacinia
-        ante.
-      </p> -->
-    <!-- Button -->
-    <!-- <div>
-        <button
-          style="display: flex; align-items: center; padding: 0.25rem 0.5rem"
-        >
-          <img
-            src="../../public/visibility_black_24dp.svg"
-            alt=""
-            style="margin-right: 0.5rem"
-          />
-          Read More
-        </button>
-      </div>
-    </div> -->
     <!-- End of Article -->
   </div>
 </template>
 
 <script setup>
-import ReadMoreButton from 'src/components/ReadMoreButton.vue';
+import sBtn from 'src/components/sBtn.vue';
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss"></style>

@@ -2,9 +2,9 @@
   <div>
     <!-- Button with icon -->
 
-    <button class="row items-center bg-red-10 text-green">
-			<q-icon name="visibility" class="q-mr-sm" />
-      Read More
+    <button class="row items-center bg-green-10 text-white">
+      <q-icon name="visibility" class="q-mr-sm" />
+      Read More More
     </button>
 
     <!-- End of Button -->
