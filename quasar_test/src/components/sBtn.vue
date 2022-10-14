@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button :style="btnStyle" style="border-radius: 4px" class="q-pa-sm">
+    <button :style="btnStyle" style="border-radius: 4px" class="q-pa-lg">
       {{ label }}
     </button>
   </div>

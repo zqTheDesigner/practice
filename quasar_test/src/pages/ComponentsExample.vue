@@ -3,26 +3,33 @@
     <!-- Article -->
     <div style="display: flex; flex-direction: column; align-items: center">
       <!-- Button -->
-      <div class="flex row">
+      <div class="flex row items-center">
+        <div>
+          <s-btn outline="true" label="Read Less" color="green" />
+        </div>
 
-        <s-btn outline="true" label="Read Less" color="green" />
+        <div>
+          <s-btn label="Read More More" color="green" />
+        </div>
 
-        <s-btn label="Read More More" color="green" />
-        
-        <q-btn
-          outline
-          label="Read More"
-          color="green-10"
-          icon="visibility"
-          size="0.75rem"
-        />
+        <div>
+          <q-btn
+            outline
+            label="Read More"
+            color="green-10"
+            icon="visibility"
+            size="0.75rem"
+          />
+        </div>
 
-        <q-btn
-          label="Read Less"
-          color="green-10"
-          icon="visibility"
-          size="0.75rem"
-        />
+        <div>
+          <q-btn
+            label="Read Less"
+            color="green-10"
+            icon="visibility"
+            size="0.75rem"
+          />
+        </div>
       </div>
     </div>
     <!-- End of Article -->

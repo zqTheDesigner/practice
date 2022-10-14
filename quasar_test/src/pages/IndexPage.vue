@@ -53,8 +53,10 @@
     >
       <!-- Side Nav -->
       <div style="background-color: #d9d9d9; width: 320px; height: 100%">
-        Side Nav - 320px width, min-height: calc(100vh-64px-200px)
+        <NavMenu :nav-menu="sideMenu" />
       </div>
+      <!-- End of Side Nav -->
+
       <!-- Body -->
       <div style="background-color: #d9d9d9; width: 100vw; height: 100%">
         Main content - as much as possible, min-height: calc(100vh-64px-200px)
@@ -66,3 +68,27 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import NavMenu from 'src/components/nav/NavMenu.vue';
+// const sideMenu_old = {
+//   'Navigation Category 1': ['Nav item 1', 'Nav item 2'],
+//   'Navigation Category 2': ['Nav item 1', 'Nav item 2'],
+// };
+
+// const navExample = ['val1', 'val2']
+const sideMenu = [
+  {
+    category: 'Navigation Category 1',
+    items: ['Nav item 1', 'Nav item 2'],
+  },
+  {
+    category: 'Navigation Category 2',
+    items: ['Nav item A', 'Nav item B'],
+  },
+  {
+    category: 'Navigation Category 3',
+    items: ['Nav item X', 'Nav item 1'],
+  },
+];
+</script>
